@@ -1,0 +1,84 @@
+.card {
+    display: flex;
+    width: 480px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #8bacff;
+    background-image: linear-gradient(to bottom, #fff, #E8EAE9);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    padding: 12px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.avatar {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skill {
+    display: inline-block;
+    font-size: 12px;
+    background-color: #d4f4e9;
+    padding: 4px 8px;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #7e9cfeb9;
+}
+
+p {
+    font-size: 14px;
+    color: #f9b1b1;
+}
+
+.actions,
+.skills {
+    margin-top: 16px;
+}
+
+.button {
+    background-color: #323C66;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button--secondary {
+    background-color: #E8EAE9;
+    color: #323C66;
+    border: 1px solid #a9a9a9;
+    transition: 0.3s;
+}
+
+.button--secondary:hover {
+    background-color: #d6d9d8;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.skills > div {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}

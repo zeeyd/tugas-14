@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <img class="avatar" src="LING MAGIC CHEES.jpg" alt="Avatar">
+        <div class="card__information">
+            <h1 id="name">Zeeyd</h1>
+            <p>Santri di <a href="#">Sintesa</a></p>
+            <div class="skills">
+                <p>Keahlian:</p>
+                <div>
+                    <div class="skill">Volly</div>
+                    <div class="skill">Dapat membuat emosi</div>
+                    <div class="skill">All Role</div>
+                </div>
+            </div>
+            <div class="actions">
+                <a href="#" class="Nyapo di pencet?">Join kang</a>
+                <a href="#" class="Join my club" onclick="learnMore()">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function learnMore() {
+            var name = document.getElementById("name").innerText;
+            alert("Mari belajar bersama " + name + "!");
+        }
+    </script>
+</body>
+</html>
